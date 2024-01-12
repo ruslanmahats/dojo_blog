@@ -1,0 +1,18 @@
+.navigation {
+	font-weight: 500;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+	a {
+		font-size: 20px;
+		color: #e54a80;
+		transition: all 0.2s ease;
+		&:hover {
+			color: rgb(229, 72, 127, 0.7);
+		}
+		&:visited {
+			color: #e54a80;
+		}
+	}
+}

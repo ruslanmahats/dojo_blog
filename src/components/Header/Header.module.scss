@@ -1,0 +1,19 @@
+.header {
+	padding: 25px 10px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 30px;
+	column-gap: 20px;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+@media (min-width: 768px) {
+	.header {
+		justify-content: space-between;
+		flex-direction: row;
+	}
+}
